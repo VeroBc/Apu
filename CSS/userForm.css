@@ -1,0 +1,31 @@
+
+body {
+    background-color: whitesmoke;
+    font-family: Trebuchet MS;
+  }
+  
+  h1 {
+    color:grey;
+    background-color:lightgrey;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+    label {
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+      
+  h2 {
+    color:black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }

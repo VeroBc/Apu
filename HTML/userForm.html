@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario para el estudiante</title>
+
+  <meta name="description" content="Formulario">
+  <meta name="author" content="Veronica Borda">
+  <link rel="stylesheet" href="/estilos/userForm">
+</head>
+
+<body>
+  <h1>Formulario de inscripción</h1>
+
+    <form action="/recibirData" method="post">
+
+      <h2> 
+      <p>Datos personales:</p>
+        <label for="fname">Nombres:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Apellidos:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni"><br>
+                
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" size="30" required>
+        <br>
+        <br>
+        <p>Escoja una Sede:</p>
+        <select id="sede" name ="sede" >
+            <option value="Lima">Lima</option>
+            <option value="Lima Centro">Lima Centro</option>
+            <option value="Lima Norte">Lima Norte</option>
+            <option value="Callao">Callao</option>
+        </select><br>
+        <br>
+
+        <p>Cursos que desea tomar:</p>
+        <input type="checkbox" id="curso1" name="curso1" value="HTML"> 
+        <label for="curso1"> HTML</label><br>
+        <input type="checkbox" id="curso2" name="curso2" value="CSS">
+        <label for="curso2"> CSS</label><br>
+        <input type="checkbox" id="curso3" name="curso3" value="JS">
+        <label for="curso3"> JS</label><br>
+        <br>
+
+        <label for="start">Periodo:</label><br>
+        <input type="month" id="start" name="start"
+               min="2021-03" max="2021-05" value="2021-05"><br>
+        <br>
+
+        <input type="submit" value="Enviar"><br>
+
+      </h2>
+
+      </form>
+    </body>
+</html>
